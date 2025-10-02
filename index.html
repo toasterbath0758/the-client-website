@@ -1,127 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style type="text/css">
 
-        *{
-            text-decoration: none;
+     <style type="text/css">
+            * {
 
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        }
-        .navbar{
-            font-family: calibri; 
-            width: 100%;
-            padding-right: 15px; 
-            padding-left: 15px;
-            padding-bottom: 5px;
-        }
-        .navdiv{
-            display: flex; 
-            align-items: center; 
-            justify-content: space-between;
-        }
-        .logo a{
-            font-size: 35px; 
-            font-weight: 600; 
-            color:white;
-        }
-        li{
-            list-style: none; 
-            display: inline-block;
-        }
-        li a{
-            color:white;
-            font-size:18px;
-            font-weight: normal; 
-            margin-right: 25px;
+                text-decoration: none;
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+
             }
-        button{
-            background-color: black; 
-            margin-left: 10px; 
-            border-radius: 10px; 
-            padding: 10px;
-            width: 90px;
+
+            .navbar {
+                font-family: calibri;
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 5px;
             }
-        button a{
-            color: white;
-            font-weight: bold;
-            font-size: 15px;
+
+            .navdiv {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
             }
-       
-        header {
-            background-color: red;
+
+            li {
+                list-style: none;
+                display: inline-block;
+            }
+
+            li a {
+                color: white;
+                font-size: 18px;
+                font-weight: normal;
+                margin-right: 25px;
+            }
+
+            header {
+                background-color: rgb(51,52,103);
+            }
+
+            section{
+                padding-bottom: 1em;
+            }
+
+            main {
+                padding: 1em;
+                
+                
+                @media (min-width: 678px) {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 2em;
+                    
+                    p {
+                        display: grid;
+                        max-width: 607px;
+                        
+                    }
                 }
-
-    </style>
-  </head>
-<main>
-<body>
-
-<header>
-<nav class="navbar">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Algemeen</a></li>
-        <li><a href="#">Zuid-oost</a></li>
-        <li><a href="#">Oost</a></li>
-        <li><a href="#">Nieuw-west</a></li>
-    </ul>
-</nav>
-</header>
-        <img width="300"src="assets/IMG_20240327_122154.jpg" alt="">
-        <p></p>
-<h1>De buurtcampuskrant</h1>
-<h2>Introductie</h2>
-
-<p>De Buurtcampus in drie vragen: een korte gids</p>
+            }
+        </style>
+</head>
 
 
-De Buurtcampus is een leeromgeving van de Hogeschool van Amsterdam in samenwerking met de Openbare Bibliotheek van Amsterdam. Drie Buurtcampussen in verschillende stadsdelen – Zuidoost, Nieuw-West en Oost – richten zich op actuele uitdagingen in de wijken van Amsterdam.
+    <body>
+       
 
-<br>
-<h2>1.	Wat is de visie van de Buurtcampus?</h2>
-<p>Het is de visie van de Buurtcampus om, 
-    samen met de OBA, van betekenis te kunnen zijn voor Amsterdamse buurtbewoners. 
-    De Buurtcampus is er om de buurt en haar organisaties te verbinden met studenten, 
-    docenten en onderzoekers van de HvA. Dat doen ze door studentenprojecten 
-    en buurtprogramma’s te ontwikkelen die zich richten op actuele 
-    en lokale maatschappelijke vraagstukken. </p>
-<br>
-<p>Deze projecten worden uitgevoerd door studenten op projectbasis of tijdens stages, 
-    waarbij ze worden begeleid door ervaren Buurtcampusmedewerkers. 
-    Zo kunnen de studenten praktijkervaring opdoen tijdens hun studie terwijl 
-    ze tegelijkertijd ook van betekenis kunnen zijn voor de buurt en een verschil kunnen maken in de wijk.</p>
-<br>
-<h2>2.	Wat doet de Buurtcampus precies?</h2>
-<p>Voorbeelden van Buurtcampusprogramma’s zijn, 
-    onder andere, Het Spreekuur en de Bonusklas. 
-    Bij Het Spreekuur zijn derdejaars studenten vanuit verschillende sociale en juridische opleidingen van de HvA betrokken. 
-    Ze kunnen zo buurtbewoners helpen met uiteenlopende vragen op allerlei leefgebieden.</p>
-<br>
-<p>De Bonusklas biedt na schooltijd ondersteuning aan kinderen om spelenderwijs talent, 
-    plezier en motivatie op het gebied van taal te bevorderen. 
-    Begeleiding gebeurt door derdejaarsstudenten Pedagogiek en Social Work. 
-    Veel van de projecten van de Buurtcampus zijn gericht op het bevorderen van duurzaamheid, 
-    inclusiviteit, kansengelijkheid, vitaliteit en de leefbaarheid van de buurt.</p>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Algemeen</a></li>
+                    <li><a href="#">Zuid-oost</a></li>
+                    <li><a href="#">Oost</a></li>
+                    <li><a href="#">Nieuw-west</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<h2>3.	Een rijke leeromgeving, wat is dat?</h2>
-<p>Het Buurtcampusteam zet zich in om studenten vanuit allerlei 
-    vakgebieden en expertises te verbinden aan wijkorganisaties en buurtbewoners. 
-    Ook zorgt de Buurtcampus ervoor dat de samenwerkingen met buurtbewoners, 
-    wijkorganisaties en opleidingen langdurig zijn. 
-    Zo kunnen ze samen terugkerende programma’s opzetten voor de buurt. 
-    Studenten en onderzoekers delen hun kennis met de buurt via sociale media, 
-    presentaties, activiteiten, meet-ups, bijeenkomsten en spreekuren. 
-    Op deze manier vormt de Buurtcampus een rijke leeromgeving.</p>
+        <main>
+
+            <img width="200" src="assets/Compact_Blurple.png" alt="">
+            <section>
+                <figure>
+                    <img width="300" src="assets/IMG_20240327_122154.jpg" alt="">
+                    <figcaption>het bijschrift bij het plaatje</figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h1>De buurtcampuskrant</h1>
+                <h2>Introductie</h2>
+
+                <p>De Buurtcampus in drie vragen: een korte gids</p>
 
 
-</body>
-</main>
+                <p>De Buurtcampus is een leeromgeving van de
+                Hogeschool van Amsterdam in samenwerking met de Openbare Bibliotheek van Amsterdam.
+                Drie Buurtcampussen in verschillende stadsdelen – Zuidoost, Nieuw-West en Oost –
+                richten zich op actuele uitdagingen in de wijken van Amsterdam.</p>
+            </section>
+
+            <section>
+                <h2>1. Wat is de visie van de Buurtcampus?</h2>
+                <p>Het is de visie van de Buurtcampus om,
+                samen met de OBA, van betekenis te kunnen zijn voor Amsterdamse buurtbewoners.
+                De Buurtcampus is er om de buurt en haar organisaties te verbinden met studenten,
+                docenten en onderzoekers van de HvA. Dat doen ze door studentenprojecten
+                en buurtprogramma’s te ontwikkelen die zich richten op actuele
+                en lokale maatschappelijke vraagstukken. </p>
+                <p>Deze projecten worden uitgevoerd door studenten op projectbasis of tijdens stages,
+                waarbij ze worden begeleid door ervaren Buurtcampusmedewerkers.
+                Zo kunnen de studenten praktijkervaring opdoen tijdens hun studie terwijl
+                ze tegelijkertijd ook van betekenis kunnen zijn voor de buurt en een verschil kunnen maken in de wijk.</p>
+            </section>
+
+            <section>
+            <h2>2. Wat doet de Buurtcampus precies?</h2>
+            <p>Voorbeelden van Buurtcampusprogramma’s zijn,
+                onder andere, Het Spreekuur en de Bonusklas.
+                Bij Het Spreekuur zijn derdejaars studenten vanuit verschillende sociale en juridische opleidingen van de
+                HvA betrokken.
+                Ze kunnen zo buurtbewoners helpen met uiteenlopende vragen op allerlei leefgebieden.</p>
+            </section>
+
+            <section>
+            <p>De Bonusklas biedt na schooltijd ondersteuning aan kinderen om spelenderwijs talent,
+                plezier en motivatie op het gebied van taal te bevorderen.
+                Begeleiding gebeurt door derdejaarsstudenten Pedagogiek en Social Work.
+                Veel van de projecten van de Buurtcampus zijn gericht op het bevorderen van duurzaamheid,
+                inclusiviteit, kansengelijkheid, vitaliteit en de leefbaarheid van de buurt.</p>
+            </section>
+
+            <section>
+            <h2>3. Een rijke leeromgeving, wat is dat?</h2>
+            <p>Het Buurtcampusteam zet zich in om studenten vanuit allerlei
+                vakgebieden en expertises te verbinden aan wijkorganisaties en buurtbewoners.
+                Ook zorgt de Buurtcampus ervoor dat de samenwerkingen met buurtbewoners,
+                wijkorganisaties en opleidingen langdurig zijn.
+                Zo kunnen ze samen terugkerende programma’s opzetten voor de buurt.
+                Studenten en onderzoekers delen hun kennis met de buurt via sociale media,
+                presentaties, activiteiten, meet-ups, bijeenkomsten en spreekuren.
+                Op deze manier vormt de Buurtcampus een rijke leeromgeving.</p>
+            </section>
+        </main>
+
+        <footer>footer</footer>
+
+
+    </body>
+
 
 </html>
- 
