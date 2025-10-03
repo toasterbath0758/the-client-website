@@ -33,29 +33,43 @@
             li {
                 list-style: none;
                 display: inline-block;
+                /* padding: 10px; */
+                min-width: 5em;
+                background-color: rgb(51,52,103);
+                justify-content: center;
+                
             }
 
             li a {
                 color: white;
-                font-size: 18px;
+                /* font-size: 18px; */
+                line-height: 4em;
                 font-weight: normal;
-                margin-right: 25px;
+                margin: 25px;
+                
+                
             }
 
             header {
-                background-color: rgb(51,52,103);
+                padding: 1em;
             }
 
             section{
                 padding-bottom: 1em;
+                justify-items: left;
+            }
+            body{
+                background-color: white;
             }
 
             main {
                 padding: 1em;
+                background-color: antiquewhite;
                 
                 
                 @media (min-width: 678px) {
                     display: grid;
+                    /* display:flex; */
                     grid-template-columns: 1fr 1fr;
                     gap: 2em;
                     
@@ -71,12 +85,12 @@
 
 
     <body>
-       
-
+   
         <header>
+                <img width="200" src="assets/Compact_Blurple.png" alt="">
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <!-- <li><a href="#">Home</a></li> -->
                     <li><a href="#">Algemeen</a></li>
                     <li><a href="#">Zuid-oost</a></li>
                     <li><a href="#">Oost</a></li>
@@ -87,7 +101,7 @@
 
         <main>
 
-            <img width="200" src="assets/Compact_Blurple.png" alt="">
+            <!-- <img width="200" src="assets/Compact_Blurple.png" alt=""> -->
             <section>
                 <figure>
                     <img width="300" src="assets/IMG_20240327_122154.jpg" alt="">
@@ -129,9 +143,6 @@
                 Bij Het Spreekuur zijn derdejaars studenten vanuit verschillende sociale en juridische opleidingen van de
                 HvA betrokken.
                 Ze kunnen zo buurtbewoners helpen met uiteenlopende vragen op allerlei leefgebieden.</p>
-            </section>
-
-            <section>
             <p>De Bonusklas biedt na schooltijd ondersteuning aan kinderen om spelenderwijs talent,
                 plezier en motivatie op het gebied van taal te bevorderen.
                 Begeleiding gebeurt door derdejaarsstudenten Pedagogiek en Social Work.
