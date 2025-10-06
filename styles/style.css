@@ -1,0 +1,70 @@
+/* CSS */
+ * {
+                text-decoration: none;
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            .navbar {
+                font-family: calibri;
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 5px;
+            }
+
+            .navdiv {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            li {
+                list-style: none;
+                display: inline-block;
+                /* padding: 10px; */
+                min-width: 5em;
+                background-color: rgb(51,52,103);
+                justify-content: center;
+            }
+
+            li a {
+                color: white;
+                /* font-size: 18px; */
+                line-height: 4em;
+                font-weight: normal;
+                margin: 25px;
+            }
+
+            header {
+                padding: 1em;
+            }
+
+            section{
+                padding-bottom: 1em;
+                justify-items: left;
+            }
+
+            body{
+                background-color: white;
+            }
+
+            main {
+                padding: 1em;
+                background-color: antiquewhite;
+                margin: 0 auto;
+                
+                
+                @media (min-width: 678px) {
+                    max-width: 750px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 2em;
+                    /* .imgs  */
+                    
+                    p {
+                        display: grid;
+                    }
+                }
+            }
