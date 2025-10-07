@@ -1,70 +1,129 @@
 /* CSS */
- * {
-                text-decoration: none;
-                box-sizing: border-box;
-                margin: 0;
-                padding: 0;
-            }
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-            .navbar {
-                font-family: calibri;
-                width: 100%;
-                padding-right: 15px;
-                padding-left: 15px;
-                padding-bottom: 5px;
-            }
+h1{
+    font-size: 2em;
 
-            .navdiv {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
+    @media (min-width:1100px){
+        font-size: 2.8em;
+    }
+}
 
-            li {
-                list-style: none;
-                display: inline-block;
-                /* padding: 10px; */
-                min-width: 5em;
-                background-color: rgb(51,52,103);
-                justify-content: center;
-            }
+h2{
+    font-size: 2em;
 
-            li a {
-                color: white;
-                /* font-size: 18px; */
-                line-height: 4em;
-                font-weight: normal;
-                margin: 25px;
-            }
+    @media (min-width:1100px){
+        font-size: 2.2em;
+    }
+}
 
-            header {
-                padding: 1em;
-            }
+p{
+    font-size: 1.4em;
 
-            section{
-                padding-bottom: 1em;
-                justify-items: left;
-            }
+    @media (min-width:1100px){
+        font-size: 1.5em;
+    }
+}
 
-            body{
-                background-color: white;
-            }
+.navbar {
+    font-family: calibri;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
 
-            main {
-                padding: 1em;
-                background-color: antiquewhite;
-                margin: 0 auto;
-                
-                
-                @media (min-width: 678px) {
-                    max-width: 750px;
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    gap: 2em;
-                    /* .imgs  */
-                    
-                    p {
-                        display: grid;
-                    }
-                }
-            }
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+   
+    li {
+        list-style: none;
+        display: inline-block;
+        /* padding: 10px; */
+        min-width: 5em;
+        background-color: rgb(51, 52, 103);
+        justify-content: center;
+        margin: 1px;
+        margin-bottom: 4px;
+    }
+}
+
+li a {
+    color: white;
+    /* font-size: 18px; */
+    line-height: 4em;
+    font-weight: normal;
+    margin: 25px;
+    
+        @media (min-width: 1100px) {
+            font-size: 1.5em;
+            padding-left: 30px;
+            padding-right: 30px;
+       
+        }
+
+}
+
+/* MARK: Header */
+header {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    @media (min-width: 900px) {
+        flex-direction: row;
+        place-items: center;
+    }
+}
+.logo{
+    height:78.24px;
+    width: 200px;
+
+}
+
+section {
+    padding-bottom: 1em;
+    justify-items: left;
+    max-width: fit-content;
+}
+
+.krant-img {
+    width: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    padding-top: 5em;
+    padding: 2em;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+
+    @media (min-width: 800px) {
+        max-width: 75%;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+        /* .imgs  */
+
+        p {
+            display: grid;
+        }
+    }
+}
