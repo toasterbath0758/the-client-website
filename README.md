@@ -1,28 +1,47 @@
 # The Client - Website
 
+##README!!
+##Intro
+Ik ben Kevin van Norden en dit is mijn versie van de site
+De beschrijving van de opdracht:
 Ontwerp en maak een website voor een opdrachtgever en bespreek het resultaat tijdens de Sprint Review.
-
-De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fdnd-task/the-client-website/blob/main/docs/INSTRUCTIONS.md)
-
-
-
-## Inhoudsopgave Readme
-
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
-
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
-
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+De vraag van de opdrachtgever:
+Een online versie van de Buurtcampuskrant.
 
 
 
-## Licentie
+##Beschrijving
+Het project heeft een krant ‘look and feel’.
 
-This project is licensed under the terms of the [MIT license](./LICENSE).
+De header heeft een blijvende navigatiebalk waardoor je op elk moment naar verschillende onderdelen van onze website kunt gaan.
+
+Met de navigatiebalk kan je naar de andere onderdelen op de site.
+
+
+
+Bij 'Beschrijving' komt te staan hoe je project er uit ziet, hoe het werkt en wat je er mee kan. Beschrijf een paar opvallende features en voeg ook screenshots toe; laat bijvoorbeeld zien hoe de website er op verschillende devices uitziet. Dit is de etalage van je project en kan je gebruiken tijdens de Sprint Review.
+
+##Kenmerken
+De website is gebouwd met HTML en CSS.
+
+interessante dingen die ik heb toegevoegd:
+https://github.com/toasterbath0758/the-client-website/blob/7d3bc49e260bc11b62b729ab927909ea4698bc74/index.html#L27-L32
+
+Ik heb een figure tag en een figcaption tag toegevoegd
+
+
+HTML
+Hieronder staat de basis structuur uitgelegd met de setting in de HEAD en opmaak van de BODY:
+In de <head> wordt een CSS file geladen. De styling van de HTML wordt via de CSS file bepaald.
+https://github.com/toasterbath0758/the-client-website/blob/7d3bc49e260bc11b62b729ab927909ea4698bc74/index.html#L8
+
+Body
+De structuur van de body is HEADER, MAIN en FOOTER:
+Header
+In de header staat de navigatiebalk met links naar verschillende onderdelen van onze website.
+
+##Over mij
+Ik ben Kevin een Eerstejaars studenten, uit klas 1J, van de HvA op de opleiding Frontend and Development.
+
+Bronnen
+
