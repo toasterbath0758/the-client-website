@@ -18,9 +18,6 @@ De header heeft een blijvende navigatiebalk waardoor je op elk moment naar versc
 Met de navigatiebalk kan je naar de andere onderdelen op de site.
 
 
-
-Bij 'Beschrijving' komt te staan hoe je project er uit ziet, hoe het werkt en wat je er mee kan. Beschrijf een paar opvallende features en voeg ook screenshots toe; laat bijvoorbeeld zien hoe de website er op verschillende devices uitziet. Dit is de etalage van je project en kan je gebruiken tijdens de Sprint Review.
-
 ##Kenmerken
 De website is gebouwd met HTML en CSS.
 
