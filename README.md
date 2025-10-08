@@ -14,6 +14,8 @@ Het project heeft een krant ‘look and feel’.
 De header heeft een blijvende navigatiebalk waardoor je op elk moment naar verschillende onderdelen van onze website kunt gaan.
 Met de navigatiebalk kan je naar de andere onderdelen op de site.
 <hr>
+<img width="1800" height="760" alt="all-devices-black" src="https://github.com/user-attachments/assets/47bda993-7510-4bd8-ac9c-81ce00a70ad1" />
+
 
 ## Kenmerken
 De website is gebouwd met HTML en CSS.
