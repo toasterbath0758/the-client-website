@@ -15,6 +15,7 @@ De header heeft een blijvende navigatiebalk waardoor je op elk moment naar versc
 Met de navigatiebalk kan je naar de andere onderdelen op de site.
 <hr>
 
+
 ## Kenmerken
 De website is gebouwd met HTML en CSS.
 interessante dingen die ik heb toegevoegd:
