@@ -1,7 +1,6 @@
 # The Client - Website - READ ME!
 
 ## Intro
-Ik ben Kevin van Norden en dit is mijn versie van de site
 De beschrijving van de opdracht:
 Ontwerp en maak een website voor een opdrachtgever en bespreek het resultaat tijdens de Sprint Review.
 ## De vraag van de opdrachtgever:
@@ -38,7 +37,7 @@ In de header staat de navigatiebalk met links naar verschillende onderdelen van 
 <hr>
 
 ### Over mij
-Ik ben Kevin een Eerstejaars studenten, uit klas 1J, van de HvA op de opleiding Frontend and Development.
+Ik ben Kevin een Eerstejaars student, uit klas 1J, van de HvA op de opleiding Frontend and Development.
 <hr>
 
 ### Bronnen
