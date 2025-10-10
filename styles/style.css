@@ -12,6 +12,11 @@
   src: url("assets/Fonts/Arial-BoldMT");
 }
 
+@font-face {
+  font-family: "BuurtCampusArial-Bold";
+  src: url("assets/Fonts/BuurtCampusArial-Bold");
+}
+
 h1{
     font-size: 2em;
     font-family: arial, Arial-BoldMT;
@@ -49,9 +54,13 @@ p{
     font-size: xx-large;
     font-style: oblique;
     font-weight:600;
+    margin: 2em 0 2em 0;
     padding: 1em;
     border-radius: 100px;
-    
+}
+
+.Buurtcampusfont {
+font-family: arial, BuurtCampusArial-Bold;
 }
 
 .navbar {
@@ -131,8 +140,10 @@ section {
     width: 100%;
 }
 
+
 krant-ill{
-    max-height:absolute;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 body {
@@ -140,8 +151,9 @@ body {
 }
 
 main {
-    padding: 4em 2em 2em 2em;
-    background-color: antiquewhite;
+    padding: 2em 2em 2em 2em;
+    background-color: white;
+
     margin: 0 auto;
     width: 90%;
     display: grid;
